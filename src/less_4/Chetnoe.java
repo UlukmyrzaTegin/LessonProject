@@ -12,7 +12,7 @@ public class Chetnoe {
         System.out.println("Введите число: ");
         int numb = scanChetnoe.nextInt();
 
-        boolean res =numb %2 == 0;
+        boolean res = numb %2 == 0;
         System.out.println(res);
     }
 }
