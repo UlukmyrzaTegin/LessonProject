@@ -8,13 +8,12 @@ import java.util.Scanner;
  */
 public class Delenie {
     public static void main(String[] args) {
+        System.out.println("Проверить делиться ли первое числа на второе без остатки: ");
         Scanner scanDelenie = new Scanner(System.in);
         System.out.println("Введите число первое");
         int chisloPervoe = scanDelenie.nextInt();
-        System.out.println("Введите число второе");
-        int chisloVtoroe = scanDelenie.nextInt();
+        System.out.println("Второе число равен к 2: ");
 
-        boolean resDelenie = chisloPervoe % 2 == 0;
-        System.out.println(resDelenie);
+        System.out.println(chisloPervoe % 2 == 0);
     }
 }
