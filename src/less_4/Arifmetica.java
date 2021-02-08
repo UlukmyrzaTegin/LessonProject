@@ -21,5 +21,7 @@ public class Arifmetica {
 
         System.out.println("Введите четвертое число:");
         int four = scanArif.nextInt();
+
+
     }
 }
