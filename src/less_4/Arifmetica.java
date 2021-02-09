@@ -21,5 +21,11 @@ public class Arifmetica {
 
         System.out.println("Введите четвертое число:");
         int four = scanArif.nextInt();
+
+        float res = first + second + three + four;
+        System.out.println("Среднее арифметическое значение четырех чисел равен: " + res);
+
+        boolean resArif = res % 3 == 0;
+        System.out.println("Результат: " + resArif);
     }
 }
