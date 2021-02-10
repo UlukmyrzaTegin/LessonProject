@@ -11,6 +11,8 @@ public class Employment {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Направление: ");
 
+        System.out.println("Test");
+
 
     }
 }
