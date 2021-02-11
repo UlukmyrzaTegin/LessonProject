@@ -8,8 +8,9 @@ import java.util.Scanner;
  */
 public class Employment {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanEmp = new Scanner(System.in);
         System.out.println("Направление: ");
+        String direction = scanEmp.nextLine();
 
         System.out.println("Test");
 
