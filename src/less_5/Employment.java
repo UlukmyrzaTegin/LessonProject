@@ -38,5 +38,6 @@ public class Employment {
 
         boolean resultEmp =((direction.equals("bacend") && (salary >= 20000 || isOfficial) && exp <=2 && lang.equals("java")) || (isReplaceNeed && (startHour >= 9 && endHour <= 18))) && isCareer;
         System.out.println(resultEmp);
+
     }
 }
