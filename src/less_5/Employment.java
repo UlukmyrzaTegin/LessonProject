@@ -12,6 +12,9 @@ public class Employment {
         System.out.println("Направление: ");
         String direction = scanEmp.nextLine();
 
+        System.out.println("Зарплата: ");
+        int salary = scanEmp.nextInt();
+
         System.out.println("Test");
 
 
