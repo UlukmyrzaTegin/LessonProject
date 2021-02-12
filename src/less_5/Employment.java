@@ -37,7 +37,11 @@ public class Employment {
         boolean isCareer = scanEmp.nextBoolean();
 
         boolean resultEmp =((direction.equals("bacend") && (salary >= 20000 || isOfficial) && exp <=2 && lang.equals("java")) || (isReplaceNeed && (startHour >= 9 && endHour <= 18))) && isCareer;
-        System.out.println(resultEmp);
+        System.out.println("Результат: " + resultEmp);
 
+        /*
+        || - или or, один из вариантов должен быть верным, тогда ответ будут правильным т.е true
+        && - и and, если одно из них false то, ответ false или true
+        */
     }
 }
