@@ -1,4 +1,4 @@
-package less_6_ifelse;
+package less_6_ifelse.homeWork;
 
 /**
  * TheSusanin
