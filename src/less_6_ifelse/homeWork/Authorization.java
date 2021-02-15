@@ -6,6 +6,7 @@ package less_6_ifelse.homeWork;
  */
 public class Authorization {
     public static void main(String[] args) {
+        System.out.println();
 
     }
 }
