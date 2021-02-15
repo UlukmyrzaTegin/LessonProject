@@ -8,6 +8,7 @@ import java.util.Scanner;
  */
 public class Main {
     public static void main(String[] args) {
+
         Scanner scanMain = new Scanner(System.in);
         System.out.print("Введите число: ");
         int a = scanMain.nextInt();
@@ -23,7 +24,6 @@ public class Main {
         } else {
             System.out.printf("Введенное число %d != 15", a);
             System.out.println("\n after if");
-
         }
     }
 }
