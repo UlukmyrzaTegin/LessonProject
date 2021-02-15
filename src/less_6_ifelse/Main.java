@@ -23,6 +23,7 @@ public class Main {
         } else {
             System.out.printf("Введенное число %d != 15", a);
             System.out.println("\n after if");
+
         }
     }
 }
