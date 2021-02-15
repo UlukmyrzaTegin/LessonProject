@@ -1,4 +1,4 @@
-package less_3;
+package less_3.homeWork;
 
 import java.util.Scanner;
 
@@ -25,5 +25,24 @@ public class Landau {
 
         float resLandau = (float) ((buist * beder * rost) / ((taliya*taliya) * ves));
         System.out.println(resLandau);
+    }
+
+    /**
+     * TheSusanin
+     * Fri Feb 2021
+     */
+    public static class Main {
+        public static void main(String[] args) {
+
+            short s = 4787;
+            byte b = (byte) s;
+
+            long l = 67846l;
+            int i = (int) l;
+
+
+            System.out.println(b);
+            System.out.println(i);
+        }
     }
 }

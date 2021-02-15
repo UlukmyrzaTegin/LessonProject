@@ -1,4 +1,4 @@
-package less_4;
+package less_4.homeWork;
 
 import java.util.Scanner;
 
