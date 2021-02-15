@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  * TheSusanin
- * Fri Feb 2021
+ * 05 Feb 2021
  */
 public class Chetnoe {
     public static void main(String[] args) {

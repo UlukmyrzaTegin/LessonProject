@@ -36,7 +36,7 @@ public class Employment {
         System.out.print("Карьерный рост? ");
         boolean isCareer = scanEmp.nextBoolean();
 
-        boolean resultEmp =((direction.equals("bacend") && (salary >= 20000 || isOfficial) && exp <=2 && lang.equals("java")) || (isReplaceNeed && (startHour >= 9 && endHour <= 18))) && isCareer;
+        boolean resultEmp =((direction.equals("backend") && (salary >= 20000 || isOfficial) && exp <=2 && lang.equals("java")) || (isReplaceNeed && (startHour >= 9 && endHour <= 18))) && isCareer;
         System.out.println("Результат: " + resultEmp);
 
         /*
