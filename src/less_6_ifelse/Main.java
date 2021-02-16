@@ -25,5 +25,7 @@ public class Main {
             System.out.printf("Введенное число %d != 15", a);
             System.out.println("\n after if");
         }
+
+        //b = a == 15 ? 20 : 10; тернарный оператор
     }
 }
