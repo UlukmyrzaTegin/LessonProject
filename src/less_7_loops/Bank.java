@@ -1,8 +1,11 @@
 package less_7_loops;
 
+import org.w3c.dom.ls.LSOutput;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.Scanner;
 
 import static java.lang.Math.pow;
 
@@ -11,6 +14,9 @@ import static java.lang.Math.pow;
  * 2/20/2021 Feb 2021
  */
 public class Bank {
+
+
+
     /*
     public static void main() throws IOException {
 

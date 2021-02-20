@@ -25,6 +25,6 @@ public class MultiplicationGeneratedTable {
                 ++totalScore;
             }
         }
-        System.out.println("Правильных ответов: " + rightAnswer + " из них неправильные: " + totalScore);
+        System.out.println("Правильных ответов: " + rightAnswer + " и неправильные: " + totalScore);
     }
 }
