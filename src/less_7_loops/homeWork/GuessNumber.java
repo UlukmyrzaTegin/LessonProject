@@ -21,10 +21,10 @@ public class GuessNumber {
                 if (answer == random) {
                     System.out.println("Вы угадали.");
                 } else if (answer > random) {
-                    System.out.println(" Загаданое число меньше вашего");
+                    System.out.println(" Загаданое число меньше вашего.");
                     ++moreNumer;
                 } else if (answer < random) {
-                    System.out.println(" Загадоное число больше вашего");
+                    System.out.println(" Загадоное число больше вашего.");
                     ++lessNumber;
                 }
             }
