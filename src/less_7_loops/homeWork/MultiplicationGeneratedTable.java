@@ -18,7 +18,7 @@ public class MultiplicationGeneratedTable {
             System.out.print(randomA + " * " + randomB + " = ");
             int answer = scanner.nextInt();
             if (answer == (randomA * randomB)) {
-                System.out.println("Правильно");
+                System.out.println("Правильно.");
                 ++rightAnswer;
             } else if (answer != (randomA * randomB)) {
                 System.out.println("Неправильно. Попробуйте еще раз.");
