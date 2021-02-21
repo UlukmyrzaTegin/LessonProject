@@ -14,8 +14,30 @@ import static java.lang.Math.pow;
  * 2/20/2021 Feb 2021
  */
 public class Bank {
+   /* public static void main(String[] args) {
+        int moreNumber = 0;
+        int lessNumber = 0;
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Отгадайте у вас 8 попыток: ");
+        for (int i = 0; i < 8; i++) {
+            int random = (int) (Math.random()*(99-2)+1);
+          //  System.out.println("secret number =" + random);
+            System.out.print("Вводите число: ");
+            int answer = scanner.nextInt();
+            if (answer > random) {
+                System.out.printf("Ваш число %d " + "Больше \n", answer);
+                ++moreNumber;
+            } else if (answer < random) {
+                System.out.printf("Ваш число %d " + "Меньше \n", answer);
+                ++lessNumber;
+            } else if (answer == random)
+                System.out.println("Вы угадали");
+        }
+        System.out.printf("Вы ввели " +  moreNumber + " раз больше " +lessNumber + " и раз меньше ");
+    }
 
 
+*/
 
     /*
     public static void main() throws IOException {
