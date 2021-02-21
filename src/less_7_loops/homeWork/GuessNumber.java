@@ -13,7 +13,7 @@ public class GuessNumber {
         Scanner scanner = new Scanner(System.in);
         System.out.println("\n Отгадайте число за 8 попыток");
             for (int i = 0; i < 8; i++) {
-                int random = (int) (Math.random() * ((99 - 2) + 1));
+                int random = (int) (Math.random() * (99 - 2))+1;
                // System.out.println("Секретное число: " + random); здесь могу узнать, генерирующий код
                 System.out.print(" Вводите ваше число: ");
                 int answer = scanner.nextInt();

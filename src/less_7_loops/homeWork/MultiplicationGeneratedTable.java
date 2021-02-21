@@ -13,8 +13,8 @@ public class MultiplicationGeneratedTable {
         int totalScore = 0;
         System.out.println("Тест на проверку знания таблицы умножения: ");
         for (int i = 0; i < 10 ; i++) {
-            int randomA = (int) (Math.random() * ((9-2)+1) + 2);
-            int randomB = (int) (Math.random() * ((9-2)+1) + 2);
+            int randomA = (int) (Math.random() * (9-2)+1);
+            int randomB = (int) (Math.random() * (9-2)+1);
             System.out.print(randomA + " * " + randomB + " = ");
             int answer = scanner.nextInt();
             if (answer == (randomA * randomB)) {
