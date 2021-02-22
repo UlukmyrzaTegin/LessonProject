@@ -1,4 +1,4 @@
-package less_5_boolean;
+package less_5_boolean.Example;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package less_6_ifelse.Example;
+package less_6_ifelse.Exercises;
 
 import java.util.Scanner;
 

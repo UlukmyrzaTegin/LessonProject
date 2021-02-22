@@ -1,4 +1,4 @@
-package less_7_loops;
+package less_7_loops.Example;
 
 import org.w3c.dom.ls.LSOutput;
 

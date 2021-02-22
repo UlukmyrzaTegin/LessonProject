@@ -1,6 +1,4 @@
-package less_6_ifelse.Example;
-
-import org.w3c.dom.ls.LSOutput;
+package less_6_ifelse.Exercises;
 
 import java.util.Scanner;
 

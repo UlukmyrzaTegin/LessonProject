@@ -1,4 +1,4 @@
-package less_7_loops.Example;
+package less_7_loops.Exercises;
 
 import java.util.Scanner;
 
