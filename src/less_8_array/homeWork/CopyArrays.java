@@ -1,4 +1,4 @@
-package Less_8_array.homeWork;
+package less_8_array.homeWork;
 
 /**
  * TheSusanin

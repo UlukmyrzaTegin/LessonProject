@@ -1,4 +1,4 @@
-package Less_8_array;
+package less_8_array;
 
 /**
  * TheSusanin

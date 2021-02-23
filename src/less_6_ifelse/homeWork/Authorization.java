@@ -15,12 +15,21 @@ public class Authorization {
         String login = scanAuth.next();
         System.out.print("Введите пароль: ");
         String password = scanAuth.next();
-
         if (!admin.equals(login)) {
             System.out.println("Такого пользователь не существует!");
         } else if (!pasw.equals(password)) {
             System.out.println("Неверный пароль");
         } else
             System.out.println("Вход успешно выполнен");
+
+     /*  Код, который Долон показывал на занятии
+        String login, password;
+       do {
+            System.out.print("Введите логин: ");
+             login = scanAuth.next();
+            System.out.print("Введите пароль: ");
+             password = scanAuth.next();
+        } while (!(admin.equals(login) || password.equals(pasw)));
+        */
       }
 }
