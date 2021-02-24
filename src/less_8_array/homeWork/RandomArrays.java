@@ -1,5 +1,7 @@
 package less_8_array.homeWork;
 
+import java.util.Arrays;
+
 /**
  * TheSusanin
  * 2/23/2021 Feb 2021
@@ -7,43 +9,37 @@ package less_8_array.homeWork;
 public class RandomArrays {
     public static void main(String[] args) {
         int[] array = new int[10];
-        int[] array2 = new int[array.length];
-        int max = array[0];
-        int min = array[0];
-        int totalArray = 0;
-        double averageArray = 0;
-        int chet = 0;
-        int neChet = 0;
-
+        int max = array[0], min = array[0];
+        int totalArray = 0, element = 10;
+        int averageArray = 0, sum1 = 0, sum2 = 0, sum3 = 0, chislo = array[0];
         for (int i = 0; i < array.length ; i++) {
-            array[i] = (int) (Math.random()*(99-2)+1)+2;
+            array[i] = (int) (Math.random() * (99-2) + 1) + 2;
             System.out.print(array[i] + "  ");
-            if (array[i] > max) {
+
+            if (array[i] > max) // мах число
                 max = array[i];
-            } else if (array[i] < min){
+            if (array[i] < min) //мин число
                 min = array[i];
-            }
 
             totalArray += array[i]; // сумма элементов в массиве
             averageArray = totalArray / array.length; // среднее арифметическое массива
+            sum1 = array[2] * array[3];
+            sum2 = array[5] * array[6];
+            sum3 = array[8] * array[9];
 
-            if (array[i] % 2 == 0)
-                chet = array[i];
-            // System.out.print(" Четные числа: " + neChet);
-            if (array[i] % 2 != 0)
-                neChet = array[i];
-            //   System.out.print(" Нечетные числа: " + chet);
-
-            for (int j = i + 1; j < array.length ; j++) {
-                if (array[i] == array[j])
-                    System.out.println(array[j]);
-            }
+        }
+            System.out.println();
+            int[] arrayChet = new int[element];
+            for (int j = 0; j < array.length; j++) {
+                if (array[j] % 2 == 0)
+                    arrayChet[j] = array[j];
+                System.out.print(arrayChet[j] + "  ");
         }
         System.out.println("\n Максимальное значение в массиве: " + max);
         System.out.println("Минимальное значение в массиве: " + min);
         System.out.println("Среднее арифметическое массива: " + averageArray);
         System.out.println("Сумма элементов в массиве: " + totalArray);
-        System.out.println("Четные числа в массиве: " + chet);
-        System.out.println("Нечетные числа в массиве: " + neChet);
+        System.out.print("Произведение каждого 3-го на следующий: " + sum1 + " " + sum2+ " " + sum3);
+
     }
 }
