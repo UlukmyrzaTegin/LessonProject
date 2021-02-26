@@ -2,14 +2,12 @@ package less_9_ClassObject.Student;
 
 /**
  * TheSusanin
- * 2/26/2021 Feb 2021
+ * 26 февраль 2021
  */
-public class Student {
+public class Course {
 
     String name;
-    int age;
     double price;
 
-    Course course;
-
+    Teacher teacher;
 }
