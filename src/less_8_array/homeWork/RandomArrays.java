@@ -1,5 +1,7 @@
 package less_8_array.homeWork;
 
+import org.w3c.dom.ls.LSOutput;
+
 import java.util.Arrays;
 
 /**
@@ -9,15 +11,17 @@ import java.util.Arrays;
 public class RandomArrays {
     public static void main(String[] args) {
         int[] array = new int[10];
-        int evenNum = 0, element = 10;
+        int evenNum = 0, oddNum = 0, element = 10;
         int max = array[0], min = array[0];
         int totalArray = 0;
         int averageArray = 0, sum1 = 0, sum2 = 0, sum3 = 0;
         for (int i = 0; i < array.length ; i++) {
             array[i] = (int) (Math.random() * (99-2) + 1) + 2;
             System.out.print(array[i] + "  ");
-            if (array[i] % 2 == 0){
+            if (array[i] % 2 == 0){           // четный числы
                 evenNum++;
+            } else if (array[i] % 2 != 0){    //нечетные числы
+                oddNum++;
             }
             if (array[i] > max) // мах число
                 max = array[i];
@@ -42,6 +46,16 @@ public class RandomArrays {
         System.out.println();
         System.out.println(Arrays.toString(array2)); // вывожу четные числа в первом массиве
 
+        int[] array3 = new int[oddNum];
+        int index3 = 0;
+        for (int i = 0; i < array.length ; i++) {
+            if (array[i] % 2 != 0) {
+                array3[index3] = array[i];
+                index3++;
+            }
+        }
+        System.out.println(Arrays.toString(array3));  // вывожу нечетные числы в первом массиве
+
 //            System.out.println();
 //            int[] arrayChet = new int[element];
 //            for (int j = 0; j < array.length; j++) {
@@ -54,6 +68,5 @@ public class RandomArrays {
         System.out.println("Среднее арифметическое массива: " + averageArray);
         System.out.println("Сумма элементов в массиве: " + totalArray);
         System.out.print("Произведение каждого 3-го на следующий: " + sum1 + " " + sum2+ " " + sum3);
-
-    }
+      }
 }
