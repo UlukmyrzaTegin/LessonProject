@@ -19,7 +19,6 @@ public class RandomArrays {
             if (array[i] % 2 == 0){
                 evenNum++;
             }
-
             if (array[i] > max) // мах число
                 max = array[i];
             if (array[i] < min) //мин число
