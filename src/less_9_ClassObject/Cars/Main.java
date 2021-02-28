@@ -1,4 +1,4 @@
-package less_9_ClassObject;
+package less_9_ClassObject.Cars;
 
 
 import less_9_ClassObject.Cars.Car;
