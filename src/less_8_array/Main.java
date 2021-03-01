@@ -24,14 +24,16 @@ public class Main {
             }
         }
         int [] array1 = new int[n];
-        int evenNum = 0;
+        int evenNum = 0, oddNum = 0;
         for (int i = 0; i < n; i++) {
             array1[i] = (int) (Math.random() * (n + 1));
             if (array1[i] % 2 == 0){
                 evenNum++;
+            }else if (array1[i] % 2 != 0) {
+                oddNum++;
             }
         }
-        System.out.println(Arrays.toString(array1));
+        System.out.println("Рандомные числы: " + Arrays.toString(array1));
         int[] array2 = new int[evenNum];
         int index = 0;
         for (int i = 0; i < n; i++) {
@@ -40,6 +42,15 @@ public class Main {
                 index++;
             }
         }
-        System.out.println(Arrays.toString(array2));
+        System.out.println("Четные числы: " + Arrays.toString(array2));
+        int[] array3 = new int[oddNum];
+        int index3 = 0;
+        for (int i = 0; i < n ; i++) {
+            if (array1[i] % 2 != 0) {
+                array3[index3] = array1[i];
+                index3++;
+            }
+        }
+        System.out.println("Нечетные числы: " + Arrays.toString(array3));
     }
 }

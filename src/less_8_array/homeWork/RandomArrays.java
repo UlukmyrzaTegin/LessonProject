@@ -44,7 +44,7 @@ public class RandomArrays {
             }
         }
         System.out.println();
-        System.out.println(Arrays.toString(array2)); // вывожу четные числа в первом массиве
+        System.out.println("Четные числы: " + Arrays.toString(array2)); // вывожу четные числа в первом массиве
 
         int[] array3 = new int[oddNum];
         int index3 = 0;
@@ -54,7 +54,7 @@ public class RandomArrays {
                 index3++;
             }
         }
-        System.out.println(Arrays.toString(array3));  // вывожу нечетные числы в первом массиве
+        System.out.println("Нечетные числы: " + Arrays.toString(array3));  // вывожу нечетные числы в первом массиве
 
 //            System.out.println();
 //            int[] arrayChet = new int[element];
