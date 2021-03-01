@@ -36,7 +36,7 @@ public class Main {
             String name = scanner.next();
             System.out.println("Position: ");
             for (Position position : positions) {
-                System.out.println(position.id + ", " + position.name);
+                System.out.println(position.id + ". " + position.name);
             }
             System.out.print("Position id: ");
             long positionId = scanner.nextLong();
