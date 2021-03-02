@@ -1,4 +1,4 @@
-package less_9_ClassObject.Example.Method;
+package less_10_method.Example;
 
 /**
  * TheSusanin
@@ -13,7 +13,8 @@ public class Calculation {
         System.out.println("factorial is " + fact);
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         new Calculation().fact(5);
     }
 }
