@@ -1,4 +1,4 @@
-package less_9_ClassObject.Example.Deposit;
+package less_10_method.Deposit;
 
 /**
  * TheSusanin
