@@ -11,6 +11,7 @@ import java.util.Scanner;
  */
 public class Main {
     public static void main(String[] args) {
+        double averageSalary = 0;
         Position junior = new Position();
         junior.id = 1;
         junior.name = "Junior";
@@ -76,7 +77,17 @@ public class Main {
         System.out.println(maxSalary);
 //
        System.out.println(junior.name + " junior's max salary = " + maxSalary);
-//        System.out.println(junior.id + " ");
+
+       //averageSalary =
+
+        System.out.println("Middle developers name and salary:");
+        for (Employee emp : employees) {
+            if (emp.position.id == 2 && (emp.salary > 20000 && emp.salary < 70000)) {
+               // maxSalary = emp.salary;
+
+            }
+        }
+
     }
 
 }
