@@ -1,4 +1,4 @@
-package less_9_ClassObject.Example.Method;
+package less_10_method.Example;
 
 /**
  * TheSusanin
