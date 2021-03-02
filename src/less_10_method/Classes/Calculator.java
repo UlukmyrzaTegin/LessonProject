@@ -1,4 +1,4 @@
-package less_9_ClassObject.Classes;
+package less_10_method.Classes;
 
 /**
  * TheSusanin
@@ -9,10 +9,12 @@ public class Calculator {
     double price;
     String color;
 
-    public int sum(int a, int b) {
+    public int sum(int a, int b)
+    {
         return (a + b) * 2;
     }
     public void showInfo() {
+
         System.out.println(price);
     }
 }
