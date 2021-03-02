@@ -1,4 +1,4 @@
-package less_9_ClassObject.Example.Constructor;
+package less_10_constructor.Constructor;
 
 /**
  * TheSusanin

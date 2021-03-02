@@ -1,4 +1,4 @@
-package less_9_ClassObject.Example.Constructor;
+package less_10_constructor.Constructor;
 
 /**
  * TheSusanin
@@ -6,7 +6,7 @@ package less_9_ClassObject.Example.Constructor;
  */
 public class TestRectangle {
     public static void main(String[] args) {
-        Rectangle rectangle1 = new Rectangle();
+        Rectangle rectangle1 = new Rectangle();   //Class Rectangle
         Rectangle rectangle2 = new Rectangle();
         rectangle1.insert(11, 5);
         rectangle2.insert(3, 15);
