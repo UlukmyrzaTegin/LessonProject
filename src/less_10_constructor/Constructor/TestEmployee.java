@@ -1,4 +1,4 @@
-package less_9_ClassObject.Example.Constructor;
+package less_10_constructor.Constructor;
 
 /**
  * TheSusanin
@@ -6,7 +6,7 @@ package less_9_ClassObject.Example.Constructor;
  */
 public class TestEmployee {
     public static void main(String[] args) {
-        Employee e1 = new Employee();
+        Employee e1 = new Employee();  // Class Employee
         Employee e2 = new Employee();
         Employee e3 = new Employee();
         e1.insert(101, "ajeet", 45000);
