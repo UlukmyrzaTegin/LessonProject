@@ -1,6 +1,8 @@
 package less_9_ClassObject.employes;
 
 
+import org.w3c.dom.ls.LSOutput;
+
 import java.util.Scanner;
 
 /**
@@ -29,7 +31,7 @@ public class Main {
 
         Position[] positions = {junior, middle, senior};
         Scanner scanner = new Scanner(System.in);
-        Employee[] employees = new Employee[4];
+        Employee[] employees = new Employee[1];
         for (int i = 0; i <  employees.length; i++) {
             System.out.println("Add new employee: ");
             System.out.print("Name: ");
@@ -72,5 +74,9 @@ public class Main {
             }
         }
         System.out.println(maxSalary);
+//
+       System.out.println(junior.name + " junior's max salary = " + maxSalary);
+//        System.out.println(junior.id + " ");
     }
+
 }
