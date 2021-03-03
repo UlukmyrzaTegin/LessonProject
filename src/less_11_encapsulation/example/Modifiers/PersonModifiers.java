@@ -1,4 +1,4 @@
-package less_11_encapsulation.Example.Modifiers;
+package less_11_encapsulation.example.Modifiers;
 
 /**
  * TheSusanin

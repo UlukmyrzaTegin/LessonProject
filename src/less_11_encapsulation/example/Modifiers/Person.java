@@ -1,4 +1,4 @@
-package less_11_encapsulation.Example.Modifiers;
+package less_11_encapsulation.example.Modifiers;
 
 /**
  * TheSusanin
@@ -24,6 +24,7 @@ public class Person {
         System.out.printf("Age: %d \n", age);
     }
     public void displayAddress() {
+
         System.out.printf("Address: %s \n", address);
     }
     public void displayPhone() {

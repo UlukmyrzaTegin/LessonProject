@@ -1,4 +1,4 @@
-package less_11_encapsulation.Example;
+package less_11_encapsulation.example;
 
 /**
  * TheSusanin
