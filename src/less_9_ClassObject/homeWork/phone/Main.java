@@ -7,19 +7,17 @@ package less_9_ClassObject.homeWork.phone;
 public class Main {
     public static void main(String[] args) {
         // Экземпляр класса
-        Phone apple = new Phone("147852369", "6S", 0.150);
-        Phone samsung = new Phone("369852147", "7Note", 0.165);
-        Phone xiaomi = new Phone("852369741", "8Note Pro", 0.165);
+        Phone[] phones = new Phone[3];
+        phones[0] = new Phone("8‑800‑333‑51‑73", "Apple iPhone 12", 155);
+        phones[1] = new Phone("8-800-987-34-21", "Samsung 21S", 165);
+        phones[2] = new Phone("8-800-775-66-15", "Xiaomi 11Note Pro", 148);
 
-        System.out.println("Apple: " + apple.number + ", " + apple.model + ", " + apple.weight);
-        System.out.println("Samsung: " + samsung.number + ", " + samsung.model + ", " + samsung.weight);
-        System.out.println("Xiaomi: " + xiaomi.number + ", " + xiaomi.model + ", " + xiaomi.weight);
-
-        apple.receiveCall("Атакем");
-        samsung.receiveCall("Апакем");
-        xiaomi.receiveCall("Брат", "0777 004-161");
-
-        //apple.sendMessage(apple.number );
-
+        System.out.println(phones[0].number + ", " + phones[0].model + ", " + phones[0].weight);
+        System.out.println(phones[1].number + ", " + phones[1].model + ", " + phones[1].weight);
+        System.out.println(phones[2].number + ", " + phones[2].model + ", " + phones[2].weight);
+        System.out.println("------------------------------------------");
+        phones[0].receiveCall("Стиб Джобс");
+        phones[2].receiveCall("8-800-775-66-15");
+        phones[0].sendMessage("8‑800‑333‑51‑73 ", "8-800-987-34-21 ", "8-800-775-66-15");
     }
 }

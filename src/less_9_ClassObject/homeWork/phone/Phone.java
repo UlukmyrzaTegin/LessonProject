@@ -7,9 +7,9 @@ import java.sql.SQLOutput;
  * 03 март 2021
  */
 public class Phone {
-    String number;
-    String model;
-    double weight;
+     String number;
+     String model;
+     double weight;
 
     public Phone() { // конструктор без параметоров
     }
@@ -26,14 +26,16 @@ public class Phone {
     }
 
     public void receiveCall(String name) {
+
         System.out.println("Звонит " + name);
     }
     public void receiveCall(String name, String number) {
-        System.out.println("Звонит " + name + " номер вызывающего " + number);
+        System.out.println("Звонит " + name + ". " + number);
     }
 
-    public void sendMessage(String message, String ...numbers) {
-        System.out.println("Отправлено сообщение: " + message);
+    public void sendMessage(String ...numbers) {
+        for (String num : numbers)
+        System.out.println("Отправлено сообщение: " + num);
 
     }
  }
