@@ -1,9 +1,9 @@
-package less_11_encapsulation.work;
+package less_12_inheritance.classWork;
 
-import less_11_encapsulation.work.models.Bike;
-import less_11_encapsulation.work.models.Bus;
-import less_11_encapsulation.work.models.Horse;
-import less_11_encapsulation.work.models.Mashine;
+import less_12_inheritance.classWork.models.Bike;
+import less_12_inheritance.classWork.models.Bus;
+import less_12_inheritance.classWork.models.Horse;
+import less_12_inheritance.classWork.models.Mashine;
 
 /**
  * TheSusanin

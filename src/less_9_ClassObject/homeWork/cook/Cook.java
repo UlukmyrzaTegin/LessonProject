@@ -23,7 +23,7 @@ public class Cook {
                 System.out.println("Поперчить");
                 System.out.println("Жарить");
                 break;
-            case "Омлет":
+            case "Омлет:":
                 System.out.println("Омлет:");
                 System.out.println("Разбить яйца");
                 System.out.println("Перемещать");

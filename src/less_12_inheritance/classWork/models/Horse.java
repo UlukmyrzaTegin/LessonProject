@@ -1,4 +1,4 @@
-package less_11_encapsulation.work.models;
+package less_12_inheritance.classWork.models;
 
 /**
  * TheSusanin
