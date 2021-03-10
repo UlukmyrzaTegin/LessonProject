@@ -27,6 +27,7 @@ public class Car {
     }
 
     public String getModel() {
+
         return model;
     }
 
@@ -62,6 +63,10 @@ public class Car {
     }
     public void stop() {
         System.out.println("Тормози, впреди светафор!");
-
     }
+
+    public void noHorse() {
+        System.out.println("Но, чу!");
+    }
+
 }

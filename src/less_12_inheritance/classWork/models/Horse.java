@@ -5,4 +5,10 @@ package less_12_inheritance.classWork.models;
  * 3/5/2021 Mar 2021
  */
 public class Horse extends Car {
+    public Horse() {
+    }
+
+    public Horse(String name, String model, String door, String engine) {
+        super(name, model, door, engine);
+    }
 }
