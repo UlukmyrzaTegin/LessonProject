@@ -1,9 +1,6 @@
 package less_12_inheritance.classWork;
 
-import less_12_inheritance.classWork.models.Bike;
-import less_12_inheritance.classWork.models.Bus;
-import less_12_inheritance.classWork.models.Horse;
-import less_12_inheritance.classWork.models.Mashine;
+import less_12_inheritance.classWork.models.*;
 
 /**
  * TheSusanin
@@ -12,19 +9,25 @@ import less_12_inheritance.classWork.models.Mashine;
 public class Main {
     public static void main(String[] args) {
 
-        Bus bus = new Bus();
+        Cooker cooker = new Cooker("A", 24);
+        cooker.relax();
+        Client client = new Client("B", 32, 1500);
+        client.relax();
+        client.getMoney();
+
+
+
+        Bus bus = new Bus("Scania","A80", "3",  "DSC9");
+        System.out.println();
         bus.drive();
 
         Horse horse = new Horse();
-        horse.reverse();
+        horse.noHorse();
 
-        Bike bike = new Bike();
+        Bike bike = new Bike("Stels", "Pilot 710","","");
         bike.stop();
 
-        Mashine mashine = new Mashine();
-        mashine.getModel();
-
+        Mashine mashine = new Mashine("Mers", "212W", "4", "ОМ626");
+        mashine.reverse();
     }
-
-
 }
