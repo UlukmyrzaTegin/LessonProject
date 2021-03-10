@@ -7,9 +7,9 @@ package less_9_ClassObject.homeWork.person;
  */
 public class Main {
     public static void main(String[] args) {
-        Person first = new Person();
+        Person first = new Person("TeamLead", 30);
         Person second = new Person("Начальник", 30);
-        second.talk("Иди учиться!");
-        first.move("Иди отдыхай!");
+        second.talk();
+        first.move();
     }
 }

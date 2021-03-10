@@ -16,10 +16,10 @@ public class Person {
         this.age = age;
     }
 
-    public void move(String name) {
-        System.out.println(this.fullName + " говорит: " + name);
+    public void move() {
+        System.out.println(this.fullName + " говорит: ");
     }
-    public void talk(String name){
-        System.out.println(this.fullName + " говорит: " + name);
+    public void talk() {
+        System.out.println(this.fullName + " говорит: ");
     }
 }
