@@ -20,22 +20,21 @@ public class Phone {
     }
 
     public Phone(String number, String model, double weight) { // конструктор с тремя параметрами
-        this.number = number;
-        this.model = model;
+        this(number, model);  //вызов конструктора с двумя параметрами
         this.weight = weight;
     }
 
     public void receiveCall(String name) {
-
         System.out.println("Звонит " + name);
     }
     public void receiveCall(String name, String number) {
         System.out.println("Звонит " + name + ". " + number);
     }
 
-    public void sendMessage(String ...numbers) {
-        for (String num : numbers)
-        System.out.println("Отправлено сообщение: " + num);
-
+    public void sendMessage(String message, String ...numbers) {
+        System.out.println("Отравка сообщения " + message + " на телефоны: ");
+        for (String num : numbers) {
+            System.out.println(num);
+        }
     }
  }

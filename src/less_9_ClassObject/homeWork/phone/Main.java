@@ -16,8 +16,8 @@ public class Main {
         System.out.println(phones[1].number + ", " + phones[1].model + ", " + phones[1].weight);
         System.out.println(phones[2].number + ", " + phones[2].model + ", " + phones[2].weight);
         System.out.println("------------------------------------------");
-        phones[0].receiveCall("Стиб Джобс");
+        phones[0].receiveCall("Сосед");
         phones[2].receiveCall("8-800-775-66-15");
-        phones[0].sendMessage("8‑800‑333‑51‑73 ", "8-800-987-34-21 ", "8-800-775-66-15");
+        phones[1].sendMessage("Message", "8-800-987-34-21 ", "8-800-775-66-15");
     }
 }
