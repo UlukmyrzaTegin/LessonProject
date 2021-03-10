@@ -1,4 +1,4 @@
-package less_9_ClassObject.homeWork;
+package less_9_ClassObject.homeWork.obmenka;
 
 /**
  * TheSusanin
