@@ -1,12 +1,10 @@
 package less_12_inheritance.homeWork;
 
-import org.w3c.dom.ls.LSOutput;
-
 /**
  * TheSusanin
  * 11 март 2021
  */
-public class Driver extends Person {
+public class Driver extends Employee {
 
 
     public Driver(String name, int age, double salary, String work) {

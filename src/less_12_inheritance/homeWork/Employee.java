@@ -4,13 +4,13 @@ package less_12_inheritance.homeWork;
  * TheSusanin
  * 11 март 2021
  */
-public class Person {
+public class Employee {
     private String name;
     private int age;
     private double salary;
     private String work;
 
-    public Person(String name, int age, double salary, String work) {
+    public Employee(String name, int age, double salary, String work) {
         this.name = name;
         this.age = age;
         this.salary = salary;

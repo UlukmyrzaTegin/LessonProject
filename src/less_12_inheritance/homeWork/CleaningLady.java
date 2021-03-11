@@ -4,7 +4,7 @@ package less_12_inheritance.homeWork;
  * TheSusanin
  * 11 март 2021
  */
-public class CleaningLady extends Person{
+public class CleaningLady extends Employee {
 
     public CleaningLady(String name, int age, double salary, String work) {
         super(name, age, salary, work);
