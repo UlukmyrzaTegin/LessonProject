@@ -6,11 +6,16 @@ package less_12_inheritance.homeWork;
  */
 public class CleaningLady extends Person{
 
+    public CleaningLady(String name, int age, double salary, String work) {
+        super(name, age, salary, work);
+    }
+
     @Override
     public void clear() {
-        System.out.println(getName());
-        System.out.println(getAge());
-        System.out.println(getSalary());
-        System.out.println(getWork());
+        System.out.println("Ф.И.О: " + getName());
+        System.out.println("Возраст: " + getAge());
+        System.out.println("Зарплата: " + getSalary());
+        System.out.println("Должность: " + getWork());
+        super.clear();
     }
 }

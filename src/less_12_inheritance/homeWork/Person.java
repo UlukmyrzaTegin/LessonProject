@@ -9,48 +9,13 @@ public class Person {
     private int age;
     private double salary;
     private String work;
-    private boolean computer;
-    private String login;
-    private String password;
 
-    public Person(String name, int age, double salary, String work, boolean computer, String login, String password) {
+    public Person(String name, int age, double salary, String work) {
         this.name = name;
         this.age = age;
         this.salary = salary;
         this.work = work;
-        this.computer = computer;
-        this.login = login;
-        this.password = password;
     }
-
-    public Person() {
-    }
-
-    public boolean isComputer() {
-        return computer;
-    }
-
-    public void setComputer(boolean computer) {
-        this.computer = computer;
-    }
-
-    public String getLogin() {
-        return login;
-    }
-
-    public void setLogin(String login) {
-        this.login = login;
-    }
-
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
-    }
-
-
     public String getWork() {
         return work;
     }
@@ -84,13 +49,6 @@ public class Person {
     }
 
     public void programmerInfo(){
-        System.out.println(getName());
-        System.out.println(getAge());
-        System.out.println(getSalary());
-        System.out.println(getWork());
-        System.out.println(isComputer());
-        System.out.println(getLogin());
-        System.out.println(getPassword());
         System.out.println("Кодить");
     }
     public void driverCar(){
