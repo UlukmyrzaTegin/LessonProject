@@ -13,21 +13,21 @@ public class Main {
         cooker.relax();
         Client client = new Client("B", 32, 1500);
         client.relax();
-        client.getMoney();
+        Administrator administrator = new Administrator("C", 21);
+        administrator.walk();
+        administrator.relax();
 
-
-
-        Bus bus = new Bus("Scania","A80", "3",  "DSC9");
-        System.out.println();
+        Bus bus = new Bus("Volvo", "DM", "2","V454");
         bus.drive();
+        bus.stop();
 
-        Horse horse = new Horse();
+        Horse horse = new Horse("Тулпар", "Araba", "2","");
         horse.noHorse();
 
-        Bike bike = new Bike("Stels", "Pilot 710","","");
+        Bike bike = new Bike("Stels", "Navigators", "","");
         bike.stop();
 
-        Mashine mashine = new Mashine("Mers", "212W", "4", "ОМ626");
+        Mashine mashine = new Mashine("Mers", "212", "4","W111");
         mashine.reverse();
     }
 }

@@ -43,9 +43,6 @@ public class Car {
         this.door = door;
     }
 
-    public Car() {
-    }
-
     public Car(String name, String model, String door,String engine) {
         this.name = name;
         this.model = model;
@@ -54,19 +51,20 @@ public class Car {
     }
 
     public void drive() {
-        System.out.println("заводи!");
+        System.out.println(getName() + " - заводи!");
 
     }
     public void reverse() {
-        System.out.println("Назад");
+        System.out.println(getName() + " - Назад");
 
     }
     public void stop() {
-        System.out.println("Тормози, впреди светафор!");
+        System.out.println(getName() + " - Тормози, впреди светафор!");
     }
 
     public void noHorse() {
-        System.out.println("Но, чу!");
+
+        System.out.println(getName() + " - Но, чу!");
     }
 
 }

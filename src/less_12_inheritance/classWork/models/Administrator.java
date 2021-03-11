@@ -9,4 +9,10 @@ public class Administrator extends Person {
     public Administrator(String name, int age) {
         super(name, age);
     }
+
+    @Override
+    public void relax() {
+        System.out.println(getName() + "-play");
+        super.relax();
+    }
 }

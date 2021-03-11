@@ -30,7 +30,7 @@ public class Person {
     }
 
     public void walk(){
-        System.out.println("walk");
+        System.out.println(getName() + "-walk");
     }
 
     public void relax() {
