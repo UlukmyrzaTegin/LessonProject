@@ -12,17 +12,14 @@ import less_13_poliformism.homeWork.models.Employee;
 public class HomePoliformism {
     public static void main(String[] args) {
         Employee[] employeeps = new Employee[4];
-
         Ceo ceo = new Ceo("Jack");
-        ceo.goToVacation();
-
         Developer developer = new Developer("Aza");
-        developer.goToVacation();
-
         Analyst analyst = new Analyst("Nurik");
-        analyst.goToVacation();
 
         employeeps[0] = developer.goToVacation();
+        employeeps[1] = ceo.goToVacation();
+        employeeps[2] = analyst.goToVacation();
+
 
 
     }

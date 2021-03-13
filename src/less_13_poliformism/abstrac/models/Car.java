@@ -5,6 +5,10 @@ package less_13_poliformism.abstrac.models;
  * 3/13/2021 Mar 2021
  */
 public class Car extends Transport {
+    public Car(String name, String model, int year) {
+        super(name, model, year);
+    }
+
     @Override
     public void drive() {
 
@@ -12,6 +16,7 @@ public class Car extends Transport {
 
     @Override
     public void reverse() {
+        System.out.println(getName() + " - Назад дай");
 
     }
 
