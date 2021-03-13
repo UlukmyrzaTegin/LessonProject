@@ -7,6 +7,7 @@ package less_12_inheritance.homeWork;
 public class MainInheritance {
     public static void main(String[] args) {
 
+        Employee employee = new Employee();
         Programmer programmer = new Programmer("Азат", 25, 70000, "Middle", true, "admin", "123654");
         programmer.programmerInfo();
         System.out.println("---------------------------------");
@@ -15,5 +16,6 @@ public class MainInheritance {
         System.out.println("---------------------------------");
         CleaningLady cleaningLady = new CleaningLady("Айгул", 32, 30000, "Уборщица");
         cleaningLady.clear();
+        employee.showInfo(new Employee[]{programmer, driver, cleaningLady});
     }
 }

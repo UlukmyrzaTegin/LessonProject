@@ -4,7 +4,7 @@ package less_12_inheritance.homeWork;
  * TheSusanin
  * 11 март 2021
  */
-public class Employee {
+public  class Employee {
     private String name;
     private int age;
     private double salary;
@@ -16,6 +16,10 @@ public class Employee {
         this.salary = salary;
         this.work = work;
     }
+
+    public Employee() {
+    }
+
     public String getWork() {
         return work;
     }
@@ -57,5 +61,7 @@ public class Employee {
     public void clear(){
         System.out.println("Убирает");
     }
+
+    public  void showInfo(Employee[] employees){}
 
 }
