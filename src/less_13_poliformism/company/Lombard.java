@@ -4,7 +4,7 @@ package less_13_poliformism.company;
  * TheSusanin
  * 3/17/2021
  */
-public class Lombard extends MainCompany {
+public class Lombard extends Company {
 
 
     public Lombard(String name) {
