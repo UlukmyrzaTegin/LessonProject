@@ -38,8 +38,7 @@ public class Main {
 
         System.out.println("---------------------");
         System.out.println("Все книги после удаление: ");
-        for (String books : bookList)
-        System.out.println(books);
+        bookList.forEach(System.out :: println);
 
         System.out.println("----------------------");
         System.out.println("Книга для замены: " + bookList.get(3));
@@ -51,8 +50,7 @@ public class Main {
 
         System.out.println("---------------------");
         System.out.println("Все книги после замены: ");
-        for (String book : bookList)
-            System.out.println(book);
+        bookList.forEach(System.out :: println);
 
         System.out.println("---------------------");
         System.out.println("Все книги очищены: ");
@@ -64,8 +62,6 @@ public class Main {
         newBookList.add("Философия Java");
         newBookList.add("Spring in Action");
         newBookList.add("Clean Code");
-
-        for (String newBook : newBookList)
-            System.out.println(newBook);
+        newBookList.forEach(System.out :: println);
     }
 }
