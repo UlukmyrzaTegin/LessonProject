@@ -1,8 +1,5 @@
 package less_9_ClassObject.employes;
 
-
-import org.w3c.dom.ls.LSOutput;
-
 import java.util.Scanner;
 
 /**
